@@ -1,0 +1,8 @@
+# whitelist
+branches:
+  only:
+    - master
+
+language: c
+
+script: echo hola
