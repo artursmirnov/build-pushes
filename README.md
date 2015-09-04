@@ -11,3 +11,7 @@ Here it goes again
 ## Three
 
 Do I get notified on a build from a pull request?
+
+## Four 
+
+Does the committer get notified on a build from a pull request?
