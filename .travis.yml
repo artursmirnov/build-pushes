@@ -2,10 +2,11 @@ branches:
   only:
   - master
 language: c
-script: echo $HOLA
+script: 
+  - echo $HOLA
 notifications:
   email:
-    on_success: change
+    on_success: always
     on_failure: always
 env:
   global:
