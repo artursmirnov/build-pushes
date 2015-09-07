@@ -1,10 +1,6 @@
-branches:
-  only:
-  - master
 language: c
 script: 
   - echo $HOLA
-  - hello
 notifications:
   email: always
 env:
