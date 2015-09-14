@@ -1,6 +1,7 @@
 language: c
 script: 
   - echo $HOLA
+  - python hello.py
 notifications:
   email: always
 env:
