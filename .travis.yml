@@ -3,7 +3,7 @@ script:
 - echo $HOLA
 - echo $EMAIL
 notifications:
-  email: always
+  email:
     recipients:
       - $EMAIL
 env:
