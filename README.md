@@ -6,4 +6,4 @@ Let's get some changes in here and then make a PR, this should not trigger a bui
 
 ## Force push tricks
 
--  First, make build fail 
+-  First, does this trigger a build?
