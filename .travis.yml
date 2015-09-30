@@ -1,9 +1,10 @@
 language: python
 python:
-  - '3.2'
+  - '2.7'
 # blacklist
 branches:
   except:
     - master
+
 script:
 - python hello.py
