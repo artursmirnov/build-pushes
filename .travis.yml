@@ -4,7 +4,8 @@ python:
 # blacklist
 branches:
   except:
-    - /^v\d/
+    - master
+    - /^v.*$/
 
 script:
 - python hello.py
