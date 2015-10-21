@@ -1,11 +1,10 @@
-branches:
-  only:
-  - master
 language: c
 script: 
   - echo $HOLA
 notifications:
   email:
+    recipients:
+      - "mariadeanton@gmail.com"
     on_success: always
     on_failure: always
 env:
