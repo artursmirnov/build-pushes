@@ -1,7 +1,7 @@
 language: c
 script: 
   - echo $HOLA
-  - '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && echo hola || false'
+  - '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && echo hola || true'
   - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo hola && echo quetal; fi
 notifications:
   email:
