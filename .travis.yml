@@ -9,3 +9,5 @@ branches:
 
 script:
 - python hello.py
+- echo $hola_caracola
+- echo $hola_caracola2
