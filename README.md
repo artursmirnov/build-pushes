@@ -5,6 +5,7 @@ a trial repo for PR and Pushes config
 
 - Commit 1
 - Commit 2
+- Commit 3
 
 ## One
 Let's get some changes in here and then make a PR, this should not trigger a build as the branch is not whitelisted.
