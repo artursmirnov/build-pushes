@@ -1,4 +1,5 @@
 #!/bin/bash
 
-git clone "https://$GH_TOKEN@github.com/MariadeAnton/pip-cache.git"
+repo = "$GH_REPO"
+git clone "https://$GH_TOKEN@github.com/$repo.git"
 echo hola
