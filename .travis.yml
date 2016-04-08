@@ -1,11 +1,5 @@
-language: python
-python:
-  - '2.7'
-# whitelist
-branches:
-  only:
-    - master
-    - /^v.*$/
+language: generic
 
 script:
-- python hello.py
+  - git clone "https://$GH_TOKEN@github.com/MariadeAnton/pip-cache.git"
+  - echo hola!!  
