@@ -1,10 +1,5 @@
-language: python
-python:
-  - '2.7'
-# whitelist
-#branches:
-#  only:
-#    - master
+language: generic
+install: true
 
 script:
-- python hello.py
+- echo hola
