@@ -1,4 +1,9 @@
 language: generic
+# whitelist
+branches:
+  only:
+    - gh-pages
+    
 install: true
 
 script:
