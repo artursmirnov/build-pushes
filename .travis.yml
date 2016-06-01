@@ -1,11 +1,6 @@
-language: python
-python:
-  - '2.7'
-# whitelist
-branches:
-  only:
-    - master
-    - /^v.*$/
+sudo: false
+language: ruby
 
-script:
-- python hello.py
+install: true
+
+script: echo $TRAVIS_EVENT_TYPE
