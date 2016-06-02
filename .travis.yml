@@ -3,4 +3,4 @@ language: ruby
 
 install: true
 
-script: echo $TRAVIS_EVENT_TYPE
+script: echo $HOLA
