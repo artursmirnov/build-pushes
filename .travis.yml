@@ -9,5 +9,5 @@ branches:
 
 script:
 - python hello.py
-- echo $hola_caracola
+- echo $TRAVIS_EVENT_TYPE
 - echo $hola_caracola2
