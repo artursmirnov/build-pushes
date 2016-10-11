@@ -1,11 +1,13 @@
 language: python
 python:
   - '2.7'
-# blacklist
+# whitelist
 branches:
-  except:
+  only:
     - master
     - /^v.*$/
 
 script:
 - python hello.py
+- echo $TRAVIS_EVENT_TYPE
+- echo $hola_caracola2
