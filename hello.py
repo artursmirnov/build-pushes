@@ -1,1 +1,1 @@
-print "Hi Travis CI!"
+print "Hello Travis CI!"
