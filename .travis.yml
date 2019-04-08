@@ -5,6 +5,7 @@ branches:
   only:
     - master
     - /^v.*$/
+    - python-default
 
 script:
 - python hello.py
